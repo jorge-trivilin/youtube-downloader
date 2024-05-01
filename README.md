@@ -21,21 +21,13 @@ This Python project allows you to download the highest quality audio stream avai
 pip install pytube
 ```
     
-
-Use code with caution.Bash
-
 How to Use:
 
-    Clone the repository:
-
-      
-git clone https://github.com/your-username/your-repository.git
-
-    
-
-Use code with caution.Bash
-
-    Run the script:
+Clone the repository:
+     
+    git clone https://github.com/jorgetrivilin/youtube_downloader.git
+ 
+Run the script:
 
       
 python youtube_downloader.py "https://www.youtube.com/watch?v=VIDEO_ID" "/path/to/save/file"
