@@ -2,7 +2,13 @@
 
 *This Python project allows you to download both the highest quality audio stream and MP4 video from public YouTube videos. It provides a convenient way to extract audio and video content for offline enjoyment or further processing.*
 
+![Version](https://img.shields.io/badge/version-1.0.0-blue)
 
+*This project was created by Jorge Trivilin.* 
+
+*Connect with Jorge here:*
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Jorge_Trivilin-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/jorgetrivilin/)
 
 **Features:**
 - Downloads the highest quality audio stream available in MP3 format.
