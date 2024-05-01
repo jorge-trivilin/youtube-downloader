@@ -56,10 +56,6 @@ caminho_saida = "/path/to/save/video.mp4"  # Specify desired path and filename
 baixar_mp4(url, caminho_saida)
 ```
 
-**License:**
-
-This project is licensed under the MIT License.
-
 **Images:**
 
 ![image](https://github.com/jorge-trivilin/youtube-downloader/assets/84451671/b73f69b7-1a72-41d9-99b8-5de9b749c9b2)
