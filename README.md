@@ -1,10 +1,10 @@
-YouTube Downloader
+# YouTube Downloader
 
-Description:
+## 1. Description:
 
 This Python project allows you to download the highest quality audio stream available from public YouTube videos.
 
-Features:
+## 2. Features:
 
 - Downloads the highest quality audio stream available.
 
@@ -12,13 +12,14 @@ Features:
 
 - Allows you to specify the path to save the audio file.
 
-Installation:
+## 3. Installation:
 
 1. Make sure you have Python 3 installed.
 2. Install the Pytube library:
-      
-pip install pytube
 
+```      
+pip install pytube
+```
     
 
 Use code with caution.Bash
