@@ -11,7 +11,7 @@
 **Files:**
 
 - `downloader.py`: Contains the core functions for downloading audio and MP4 videos from YouTube.
-  - `main.py:` Provides an example of how to use the downloader functions to download audio and video from a specific YouTube ideo URL.
+- `main.py:` Provides an example of how to use the downloader functions to download audio and video from a specific YouTube ideo URL.
 -  `__pycache__`: This directory stores compiled Python bytecode files and can be ignored.
 
 **Installation:**
