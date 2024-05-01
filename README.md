@@ -1,62 +1,59 @@
-# YouTube Downloader
+# YouTube Audio & MP4 Downloader
 
-## 1. Description:
+**Description:**
+*This Python project allows you to download both the highest quality audio stream and MP4 video from public YouTube videos. It provides a convenient way to extract audio and video content for offline enjoyment or further processing.*
 
-This Python project allows you to download the highest quality audio stream available from public YouTube videos.
+**Features:**
+- Downloads the highest quality audio stream available in MP3 format.
+- Downloads the highest quality MP4 video with audio.
+- Offers flexibility by providing separate functions for audio and video downloads.
 
-## 2. Features:
+**Files:**
 
-- Downloads the highest quality audio stream available.
+- `downloader.py`: Contains the core functions for downloading audio and MP4 videos from YouTube.
+  - `main.py:` Provides an example of how to use the downloader functions to download audio and video from a specific YouTube ideo URL.
+-  `__pycache__`: This directory stores compiled Python bytecode files and can be ignored.
 
-- Saves the audio file in MP3 format.
+**Installation:**
 
-- Allows you to specify the path to save the audio file.
+- Make sure you have Python 3 installed.
+- Install the Pytube library:
 
-## 3. Installation:
 
-1. Make sure you have Python 3 installed.
-2. Install the Pytube library:
-
-```      
+```
 pip install pytube
 ```
-    
-How to Use:
 
-Clone the repository:
-     
-    git clone https://github.com/jorgetrivilin/youtube_downloader.git
- 
-Run the script:
+**How to Use:**
 
-      
-python youtube_downloader.py "https://www.youtube.com/watch?v=VIDEO_ID" "/path/to/save/file"
+1. Clone the repository:
 
-    
+```
+git clone https://github.com/your-username/your-repository.git
+```
 
-Use code with caution.Bash
+2. Import the functions:
+In your Python script, import the necessary functions from `downloader.py`:
 
-    Replace VIDEO_ID with the actual ID of the YouTube video you want to download.
+```
+from downloader import baixar_audio, baixar_mp4
+```
 
-    Replace /path/to/save/file with the desired path and filename for the downloaded audio file (e.g., /home/user/Downloads/audio.mp3).
+3.  Download audio:  
+```
+url = "https://www.youtube.com/watch?v=VIDEO_ID"
+caminho_saida = "/path/to/save/audio.mp3"  # Specify desired path and filename
 
-Example:
+baixar_audio(url, caminho_saida)
+```
 
-      
-python youtube_downloader.py "https://www.youtube.com/watch?v=dQw4w9WgXcQ" "/home/user/Downloads/rickroll.mp3"
+4. Download MP4 video:
+```
+url = "https://www.youtube.com/watch?v=VIDEO_ID"
+caminho_saida = "/path/to/save/video.mp4"  # Specify desired path and filename
 
-    
+baixar_mp4(url, caminho_saida)
+```
 
-Use code with caution.Bash
-
-Contribution:
-
-Contributions are welcome! Please open an issue or pull request on GitHub.
-
-License:
-
+**License:**
 This project is licensed under the MIT License.
-
-Disclaimer:
-
-This project is for educational purposes only. Please respect YouTube's terms of service and copyright laws.
