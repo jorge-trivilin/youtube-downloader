@@ -1,7 +1,8 @@
 # YouTube Audio & MP4 Downloader
 
-**Description:**
 *This Python project allows you to download both the highest quality audio stream and MP4 video from public YouTube videos. It provides a convenient way to extract audio and video content for offline enjoyment or further processing.*
+
+
 
 **Features:**
 - Downloads the highest quality audio stream available in MP3 format.
